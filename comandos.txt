@@ -1,0 +1,84 @@
+$ git init
+Initialized empty Git repository in C:/Users/xfoar/OneDrive/Escritorio/certified tech developer/1. Introduccion-a-la-informatica/Checkpoint-OrianaGuerrero/.git/
+
+$ git remote add origin https://github.com/Orianaguerrero/Checkpoint-OrianaGuerrero.git
+
+$ touch main.js index.html
+
+$ git add .
+
+$ git commit -m "Agregando archivos"
+[master (root-commit) faf9c38] Agregando archivos
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 233 bytes | 233.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Orianaguerrero/Checkpoint-OrianaGuerrero.git
+ * [new branch]      master -> master
+
+$ git branch feature
+$ git checkout feature
+Switched to branch 'feature'
+
+$ mkdir Hardware Sofware SeguridadInformatica
+
+$ cd Hardware
+
+$ touch resumen.txt
+
+$ cd ..
+
+$ cd Sofware
+
+$ touch resumen.txt
+
+$ touch resumen.txt
+
+$ cd ..
+
+$ cd SeguridadInformatica
+
+$ touch resumen.txt
+
+$ git add .
+
+$ git commit -m "Agregando estructrura de carpetas"
+[feature 790e807] Agregando estructrura de carpetas
+ 3 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 Sofware/resumen.txt
+
+
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 362 bytes | 362.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/Orianaguerrero/Checkpoint-OrianaGuerrero/pull/new/feature
+remote:
+To https://github.com/Orianaguerrero/Checkpoint-OrianaGuerrero.git
+ * [new branch]      feature -> feature
+$ git checkout master
+Switched to branch 'master'
+
+$ mv main.js resumenHardware.txt
+
+$ mv index.html resumenSotfware.txt
+
+$ nano resumenSotfware.txt
+
+$ nano resumenHardware.txt
+
+
