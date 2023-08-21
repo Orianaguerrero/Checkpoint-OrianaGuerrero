@@ -81,4 +81,6 @@ $ nano resumenSotfware.txt
 
 $ nano resumenHardware.txt
 
+$ touch comandos.txt
+
 
